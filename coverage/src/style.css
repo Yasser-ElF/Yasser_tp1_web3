@@ -1,0 +1,78 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  min-height: 100vh;
+}
+
+.main-content {
+  background: white;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+  margin-top: -50px;
+  position: relative;
+  z-index: 2;
+}
+
+.rating-badge {
+  background: linear-gradient(45deg, #ff6b6b, #ee5a52);
+  color: white;
+  padding: 8px 15px;
+  border-radius: 25px;
+  font-weight: 600;
+  display: inline-block;
+  margin: 10px 0;
+}
+
+.navbar {
+  background: rgba(255,255,255,0.95) !important;
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid rgba(255,255,255,0.2);
+}
+
+.navbar-brand, .nav-link {
+  color: #333 !important;
+}
+
+.hero-section {
+  background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.6)), 
+  url('https://www.pluggedin.com/wp-content/uploads/2025/09/web-topper-64.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+.critique-text {
+  line-height: 1.7;
+  text-align: justify;
+}
+
+.pros-cons {
+  background: #f8f9fa;
+  border-left: 4px solid #667eea;
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 5px;
+}
+
+.rating-item {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+  padding: 8px;
+  background: #f1f3f4;
+  border-radius: 5px;
+}
+
+.star-rating {
+  color: #977201;
+}
+
+footer {
+  margin-top: 50px;
+  padding: 30px 0;
+  background: rgba(255,255,255,0.1);
+  color: white;
+}
