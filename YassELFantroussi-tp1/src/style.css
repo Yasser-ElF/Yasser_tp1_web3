@@ -35,13 +35,13 @@ body {
 
 .hero-section {
   background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.6)), 
-  url('https://www.pluggedin.com/wp-content/uploads/2025/09/web-topper-64.jpg');
+    url('https://www.pluggedin.com/wp-content/uploads/2025/09/web-topper-64.jpg');
   background-size: cover;
   background-position: center;
   height: 400px;
   display: flex;
   align-items: center;
-  color: white;
+  
 }
 
 .critique-text {
