@@ -7,7 +7,7 @@ function toggleRatings() {
   }
 }
 
-// petit effet de scroll smooth fait maison
+// petit effet de scroll smooth fait ane passe
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
   anchor.addEventListener('click', function (e) {
     e.preventDefault();
